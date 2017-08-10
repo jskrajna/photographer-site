@@ -454,7 +454,8 @@ footer>div {
     padding: 2em 0;
 }
 
-#email:link {
+#email:link,
+#mail:link{
     color: #fff;
     text-decoration: none;
 }
@@ -462,7 +463,11 @@ footer>div {
 #email:visited,
 #email:active,
 #email:hover,
-#email:focus {
+#email:focus,
+#mail:visited,
+#mail:active,
+#mail:hover,
+#mail:focus {
     color: #1fa5ad;
 }
 
