@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Advertising, fashion, architectual photography portfolio">
+    <meta name="keywords" content="photoshot, fashion, advertising, architectural, sale">
+    <title>Photographer site</title>
+    <link href="https://fonts.googleapis.com/css?family=Kurale&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/4e0e204e30.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/pages.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+            <a class="navbar-brand" href="index.html">John Doe<span> THE PHOTOGRAPHER</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="about.html">About me<span class="sr-only">(current)</span></a></li>
+                <li><a href="prices.html">Prices</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="advertising.html">Advertising</a></li>
+                        <li><a href="fashion.html">Fashion</a></li>
+                        <li><a href="architectural.html">Architectural</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div id="social" class="clearfix">
+        <a href="http://facebook.com" target="_blank"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+        <a href="https://www.behance.net/" target="_blank"><i class="fa fa-behance fa-lg" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+    </div>
+    <div id="contact">
+        <header class="site">
+            <div class="container">
+                <div class="row">
+                    <div class="subpage-header">
+                        <h2>Contact<span> form</span></h2>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <form action="" method="post">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label class="control-label" for="name">First name</label>
+                                <div>
+                                    <input id="name" name="name" type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="name">Last name</label>
+                                <div>
+                                    <input id="surname" name="surname" type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="email">E-mail</label>
+                                <div>
+                                    <input id="email" name="email" type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+
+                                <label class="control-label">Choose package:</label>
+
+                                <div class="form-check">
+                                    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+        Bronze package (200$)
+      </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+        Silver package (500$)
+      </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3">
+        Gold package (800$)
+      </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="form-group">
+                                <label class="control-label" for="message">Your message</label>
+                                <div>
+                                    <textarea class="form-control" id="message" name="message" rows="17"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class=" text-right">
+                                    <button type="submit" class="btn btn-subpage">SEND</button> <button type="reset" class="btn  btn-subpage">CLEAR</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-md-3 info">
+
+                            <div class="wrapper">
+                                <div class="form-group">
+                                    <label><i class="fa fa-phone" aria-hidden="true"></i> Phone number</label>
+                                    <div>
+                                        <p class="form-control-static">(856) 455-5263</p>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label><i class="fa fa-envelope" aria-hidden="true"></i> E-mail</label>
+                                    <div>
+                                        <p class="form-control-static">johndoe@einrot.com</p>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label><i class="fa fa-address-card" aria-hidden="true"></i> Address</label>
+                                    <div>
+                                        <p class="form-control-static">3 Clarke Rd, Bridgeton, NJ, 08302</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+
+
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div id="copyright" class="col-md-3">
+                    <p>Copyright © 2017<br>
+                        <a id="email" href="mailto:jskrajna@gmail.com">jskrajna@gmail.com</a></p>
+                </div>
+
+                <form class="form-inline pull-right col-md-5 text-right">
+                    <div class="form-group">
+                        <p class="form-control-static">Subscribe my newsletter</p>
+                    </div>
+                    <div class="input-group">
+                        <label for="mail" class="sr-only">E-mail</label>
+                        <input type="mail" class="form-control" placeholder="E-mail">
+                        <span class="input-group-btn">
+    <button class="btn send" type="button"><i class="fa fa-envelope" aria-hidden="true"></i></button>
+    </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
