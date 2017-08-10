@@ -983,9 +983,14 @@ input[type=radio] {
                 #about {
             font-size: 1em;
         }
+        .subpage-header{
+            font-size:1.2em;
+        }
+        
     }
     @media only screen and (min-width: 90em) {
-        .subpage-header {
+        
+        .subpage-header{
             font-size: 1.5em;
         }
         #heading h1 {
