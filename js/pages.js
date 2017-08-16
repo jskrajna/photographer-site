@@ -7,7 +7,7 @@ $('.item').each(function (i) {
     });
 
 $(function(){
-    $('.pop').on('click',function() {
+    $('#side').on('click',function() {
         $('.photoPreview').attr('src',$(this).find('img').attr('src'));
         $('#photoModal').modal('show');
     });
